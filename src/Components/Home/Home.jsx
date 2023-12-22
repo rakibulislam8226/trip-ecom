@@ -1,7 +1,11 @@
 import React from 'react'
+import { Banner } from './Banner'
 
 export const Home = () => {
-  return (
-    <div>Home</div>
-  )
+    console.log("Home");
+    return (
+        <div>
+            <Banner />
+        </div>
+    )
 }
